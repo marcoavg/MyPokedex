@@ -21,7 +21,6 @@ import { JoiValidationSchema } from './config/joi.validation';
    }),
    MongooseModule.forRoot(process.env.MONGO_DB!, {
     ssl: true,
-    tls: true,
     dbName: 'pokemondex'
    }),
    PokemonModule,
