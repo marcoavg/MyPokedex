@@ -28,7 +28,13 @@
 ## Project setup
 
 ```bash
-$ yarn install
+yarn install
+npm add uuid
+npm i class-validator class-transformer
+
+docker-compose up -d
+
+npm i @nestjs/mongoose mongoose
 ```
 
 ## Compile and run the project
