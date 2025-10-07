@@ -29,7 +29,9 @@
 
 ```bash
 yarn install
-npm add uuid
+
+npm i -g @nestjs/cli
+
 npm i class-validator class-transformer
 
 docker-compose up -d
