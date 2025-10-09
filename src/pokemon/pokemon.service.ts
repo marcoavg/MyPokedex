@@ -6,6 +6,7 @@ import { Pokemon } from './entities/pokemon.entity';
 import { InjectModel } from '@nestjs/mongoose';
 import { PaginationDto } from 'src/common/dto/pagination.dto';
 import { ConfigService } from '@nestjs/config';
+import { validate as isUUID } from 'uuid';
 
 @Injectable()
 export class PokemonService {
